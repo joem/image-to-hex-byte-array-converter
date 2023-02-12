@@ -93,7 +93,7 @@
             
             <div class="form_pair">
                 <label>Preview:</label>
-                <div><canvas id="screen" width="128" height="64" ></canvas></div>
+                <div><canvas id="screen" width="136" height="96" ></canvas></div>
             </div>
             
             <div class="form_pair">
@@ -310,7 +310,7 @@
                 
                 //determine the target size based on the scaling of the image
                var newSize = { width: tempImg.width, height: tempImg.height };
-                var targetWidth = 128, targetHeight = 64;
+                var targetWidth = 136, targetHeight = 96;
                 
                 if (newSize.width > targetWidth || newSize.height>targetHeight) {
                     var aspect = newSize.width / newSize.height;

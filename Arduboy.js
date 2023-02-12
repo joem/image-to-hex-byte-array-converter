@@ -271,8 +271,8 @@ var Arduboy = (function() {
     var DC = 4;
     var RST = 12;
 
-    var WIDTH = 128;
-    var HEIGHT = 64;
+    var WIDTH = 136;
+    var HEIGHT = 96;
     
     var font = [
         0x00, 0x00, 0x00, 0x00, 0x00,
