@@ -13,9 +13,8 @@ Clone the repo onto a local web server and open 'index.html' in a browser to run
 # TODOs
 
 - Figure out how to remove the whole Arduboy.js as a requirement
-- Set the preview screen size to 136x96
-  - Let user define size of preview screen
-  - Have a radio button for arduboy, avml, and custom where they can input their own?
+- Let user define size of preview screen (which also influences the scaling options)
+  - Have a radio button for arduboy (128x64), avml (136x96), and custom where the user can input their own?
 - Let user define a size to scale image to, instead of only fit/fill/no-scaling
 - Add it to my github
   - Can I host it via github pages or whatever?
